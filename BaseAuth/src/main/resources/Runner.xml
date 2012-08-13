@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<suite name="JirapTestSuite" verbose="1" preserve-order="false">
+	<parameter name="browser" value="firefox" />
+	<test name="JirapTest">
+		<groups>
+			<run>
+				<include name="1" />
+			</run>
+		</groups>
+		<classes>
+			<class name="jirap.tests.JirapTests" />
+		</classes>
+	</test>
+</suite>
