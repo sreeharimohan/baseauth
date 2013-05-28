@@ -1,7 +1,5 @@
 package jirap.flows;
 
-import common.BaseAuthHelper;
-
 import jirap.pages.JirapDashboardPage;
 
 public class JirapBasicFlows {
